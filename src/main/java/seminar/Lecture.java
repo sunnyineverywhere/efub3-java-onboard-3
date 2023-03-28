@@ -1,2 +1,5 @@
-package seminar;public class Lecture {
+package seminar;
+
+public class Lecture {
+
 }

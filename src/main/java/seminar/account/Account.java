@@ -1,2 +1,4 @@
-package seminar;public class Person {
+package seminar.account;
+
+public class Account {
 }

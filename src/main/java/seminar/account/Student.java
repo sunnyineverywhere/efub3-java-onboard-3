@@ -1,4 +1,4 @@
-package seminar;
+package seminar.account;
 
 public class Student {
 }
