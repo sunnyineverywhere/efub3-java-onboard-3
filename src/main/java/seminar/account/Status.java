@@ -1,5 +1,4 @@
 package seminar.account;
 
-public class Student {
-
+public enum Status {
 }
