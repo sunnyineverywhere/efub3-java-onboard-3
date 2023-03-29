@@ -1,5 +1,6 @@
 ## 가이드라인
 - 다음 문서에서는 클래스에서 구현해야 하는 목록에 대해 작성합니다.
+- 간단한 과제이며, 앞으로 서버를 구축할 때 기본이 되는 도메인의 설계와 연관된 내용입니다.
 ### Person
 - 다음과 같은 필드를 갖습니다.
   - `String` userId
@@ -33,6 +34,13 @@
     - `setMajor()` : major를 변경합니다.
     - `getName()`  `getMajor()`  `getStatus()` : 각 타입의 데이터를 리턴합니다.
 
+### Lecture
+- 다음과 같은 필드를 갖습니다.
+  - `String` lectureId
+  - `String` major
+  - `String` name
+  - `String` professorId
+  - `Integer` total
 
 ## File Tree
 ```
@@ -53,6 +61,8 @@
     │   │       ├── Main.java
     │   │       └── account
     │   │           ├── Account.java
+    │   │           ├── Grade.java
+    │   │           ├── Status.java
     │   │           ├── Professor.java
     │   │           └── Student.java
     │   └── resources
