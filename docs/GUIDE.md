@@ -1,7 +1,7 @@
 ## 가이드라인
 - 다음 문서에서는 클래스에서 구현해야 하는 목록에 대해 작성합니다.
 - 간단한 과제이며, 앞으로 서버를 구축할 때 기본이 되는 도메인의 설계와 연관된 내용입니다.
-### Person
+### Account
 - 다음과 같은 필드를 갖습니다.
   - `String` userId
   - `String` name
@@ -10,7 +10,7 @@
   - `String` major
 
 ### Student
--  `Person` 클래스를 상속합니다.
+-  `Account` 클래스를 상속합니다.
 - 다음과 같은 필드를 갖습니다.
     - `String` studentId
     - `Grade` grade
@@ -22,7 +22,7 @@
   - `getName()`  `getMajor()`  `getGrade()` : 각 타입의 데이터를 리턴합니다.
 
 ### Professor
--  `Person` 클래스를 상속합니다.
+-  `Account` 클래스를 상속합니다.
 - 다음과 같은 필드를 갖습니다.
     - `String` professorId
     - `Status` status
