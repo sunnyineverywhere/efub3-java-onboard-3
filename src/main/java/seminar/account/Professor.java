@@ -8,7 +8,9 @@ public class Professor extends Account{
         this.status=status;
     }
 
-    public void setMajor(){
+    @Override
+    public void setMajor(String major){
+        super.major=major;
     }
     @Override
     public String getName(){
