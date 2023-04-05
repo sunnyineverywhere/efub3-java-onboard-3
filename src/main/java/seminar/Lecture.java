@@ -11,10 +11,6 @@ public class Lecture {
         return lectureId;
     }
 
-    public void setLectureId(String lectureId) {
-        this.lectureId = lectureId;
-    }
-
     public String getMajor() {
         return major;
     }
