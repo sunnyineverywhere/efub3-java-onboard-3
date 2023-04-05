@@ -4,6 +4,15 @@ public class Student extends Person{
 	private String studentId;
 	private Grade grade;
 
+	public Student(){}// 기본 생성자
+
+
+	public Student(String userId, String name, String college, String department, String major, String studentId, Grade grade) {
+		super(userId, name, college, department, major);
+		this.studentId = studentId;
+		this.grade = grade;
+	}
+
 	@Override
 	public String getUserId() {
 		return studentId;

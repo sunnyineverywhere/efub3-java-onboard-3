@@ -6,6 +6,15 @@ public class Person {
 	private String college;
 	private String department;
 	private String major;
+	public Person() {} // 기본 생성자
+
+	public Person(String userId, String name, String college, String department, String major) {
+		this.userId = userId;
+		this.name = name;
+		this.college = college;
+		this.department = department;
+		this.major = major;
+	}
 
 	public String getUserId() {
 		return userId;
