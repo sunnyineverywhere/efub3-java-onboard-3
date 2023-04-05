@@ -30,7 +30,7 @@
     - 필드 key는 다음 값을 나타냅니다.
         - `ROSESWORD`, `ANGEL`, `NOT_BAD`, `BAD`
 - 다음과 같은 메소드를 갖습니다.
-    - `setStatus()` : grade를 변경합니다.
+    - `setStatus()` : status를 변경합니다.
     - `setMajor()` : major를 변경합니다.
     - `getName()`  `getMajor()`  `getStatus()` : 각 타입의 데이터를 리턴합니다.
 
