@@ -5,12 +5,12 @@ public class Professor extends Person{
 	private Status status;
 
 	@Override
-	public String getId() {
+	public String getUserId() {
 		return professorId;
 	}
 
 	@Override
-	public void setId(String id) {
+	public void setUserId(String id) {
 		this.professorId = id;
 	}
 

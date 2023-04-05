@@ -5,12 +5,12 @@ public class Student extends Person{
 	private Grade grade;
 
 	@Override
-	public String getId() {
+	public String getUserId() {
 		return studentId;
 	}
 
 	@Override
-	public void setId(String id) {
+	public void setUserId(String id) {
 		this.studentId = id;
 	}
 
