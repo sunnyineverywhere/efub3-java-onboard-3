@@ -11,7 +11,7 @@ public class Professor extends Account {
     public void setStatus(Status status) {
         this.status = status;
     }
-    
+
     @Override
     public String getName() {
         return name;
